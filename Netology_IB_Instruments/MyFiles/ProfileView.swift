@@ -9,15 +9,9 @@
 import UIKit
 
 class ProfileView: UIView {
-
     @IBOutlet weak var photo: UIImageView!
     @IBOutlet weak var name: UILabel!
-    @IBOutlet weak var birthday: UILabel!
-    @IBOutlet weak var town: UILabel!
+    @IBOutlet weak var birthdate: UILabel!
+    @IBOutlet weak var city: UILabel!
     @IBOutlet weak var text: UITextView!
-    
-//    @IBOutlet weak var photo: UIImageView!
-//    @IBOutlet weak var name: UILabel!
-//    @IBOutlet weak var profileView: UILabel!
-//    @IBOutlet weak var text: UITextView!
 }
