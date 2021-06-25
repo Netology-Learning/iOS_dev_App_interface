@@ -22,5 +22,5 @@ class AlertViewController: UIViewController {
     @IBAction func No(_ sender: Any) {
         print("Извините, Вы не сюда попали!")
     }
-    
 }
+

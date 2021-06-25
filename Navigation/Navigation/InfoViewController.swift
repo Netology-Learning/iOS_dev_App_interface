@@ -15,30 +15,33 @@ class InfoViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func tub2(_ sender: Any) {
+    }
+    
 
-         @IBAction func tub(_ sender: Any) {
+    
+    
 
-         }
+    
+    
+
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            guard segue.identifier == "MyPost" else {
-                print("Wrong identifier for Alert")
-                return
-            }
-            guard let alertViewController = segue.destination as?
-                AlertViewController else {
-                print("Wrong controller for Alert")
-                return
-            }
+                guard segue.identifier == "MyPost" else {
+                    print("Wrong identifier for Alert")
+                    return
+                }
+                guard let alertViewController = segue.destination as?
+                    AlertViewController else {
+                    print("Wrong controller for Alert")
+                    return
+                }
 
-        print("Setting title for Alert")
-        alertViewController.title =  post.title
-        alertViewController.title =  message.title
-    }
-    var post = Post(title: "MyPost")
-    struct Post {
-        var title: String
-    }
+            print("Setting title for Alert")
+            alertViewController.title =  post.title
+            alertViewController.title =  message.title
+        }
+
     var message = Message(title: "MyMessage")
     struct Message {
         var title: String
