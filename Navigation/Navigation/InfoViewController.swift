@@ -11,20 +11,10 @@ class InfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func tub2(_ sender: Any) {
     }
-    
-
-    
-    
-
-    
-    
-
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
                 guard segue.identifier == "MyPost" else {
