@@ -32,13 +32,13 @@ class FeedViewController: UIViewController {
 
         print("Setting title for PostViewController")
         postViewController.title =  post.title
-        }
+    }
         
-    }
-    var post = Post(title: "MyPost")
-    struct Post {
-        var title: String
-    }
+}
+var post = Post(title: "MyPost")
+struct Post {
+    var title: String
+}
 
 
     
