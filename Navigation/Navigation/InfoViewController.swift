@@ -14,6 +14,14 @@ class InfoViewController: UIViewController {
     }
 
     @IBAction func tub2(_ sender: Any) {
+        let alert = UIAlertController(title: "Привет!", message: "Ты всегда делаешь то, что тебе говорят?", preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction(title: "Да", style: .default, handler: nil))
+        alert.addAction(UIAlertAction(title: "Нет", style: .cancel, handler: nil))
+
+            print("Бум!")
+        
+        self.present(alert, animated: true)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

@@ -80,7 +80,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="нажимай вверху слева на кнопочку &quot;item&quot;" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cmH-Br-HlA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="нажимай вверху справа на кнопочку &quot;item&quot;" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cmH-Br-HlA">
                                 <rect key="frame" x="87" y="419" width="240" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -123,7 +123,6 @@
                                 <connections>
                                     <action selector="tub2:" destination="ow5-5B-ren" eventType="primaryActionTriggered" id="6Bx-MY-ff9"/>
                                     <action selector="tub2:" destination="ow5-5B-ren" eventType="editingDidEndOnExit" id="bWR-G4-baS"/>
-                                    <segue destination="0J5-yh-iTu" kind="show" id="dDy-Dd-E3F"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -172,7 +171,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="5XT-qL-ic7">
-                                <rect key="frame" x="267" y="476" width="65" height="34"/>
+                                <rect key="frame" x="266" y="476" width="65" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="НЕТ">
@@ -191,20 +190,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X2J-Bg-ZwV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3835" y="-60"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="KjU-Q0-UJa">
-            <objects>
-                <navigationController id="0J5-yh-iTu" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="oid-DZ-ysR"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zSY-kC-fXI">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wlx-xc-gVI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3342" y="641"/>
         </scene>
         <!--Profile-->
         <scene sceneID="78m-xW-5mH">
